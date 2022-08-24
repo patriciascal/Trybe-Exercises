@@ -1,0 +1,35 @@
+
+body {
+    font-size: 16px;
+}
+
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+ul {
+    background-color: black;
+    font-style: italic;
+    text-align: left;
+    color: white;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#amarelo {
+    background-color: rgb(156, 156, 0);
+}
+
+#vermelho {
+    background-color: red;
+}
+
+#marrom {
+    background-color: brown;
+}
