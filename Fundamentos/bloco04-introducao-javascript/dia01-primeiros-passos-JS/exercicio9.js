@@ -1,11 +1,13 @@
-// IDENTIFICANDO NUMERO PAR ENTRE 3 VALORES // 
+// IDENTIFICANDO NUMERO ÍMPAR ENTRE 3 VALORES // 
 
-const numbA = 3;
+const numbA = 2;
 const numbB = 6;
-const numbC = 4;
+const numbC = 1;
+
+let isOdd = false;
 
 if (numbA % 2 !== 0 || numbB % 2 !== 0 || numbC % 2 !== 0) {
-    console.log ('True')
-} else {
-    console.log ('False')
+    isOdd = true
 }
+
+console.log (isOdd)
