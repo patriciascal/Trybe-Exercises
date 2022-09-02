@@ -12,7 +12,7 @@ const rodape = document.getElementById('footer-container');
 
 const emergenciasHeader = document.querySelectorAll('.emergency-tasks h3')
     for (let index = 0; index < emergenciasHeader.length; index += 1) {
-  emergenciasHeader[index].style.backgroundColor = 'rgb(165, 0, 243'}
+  emergenciasHeader[index].style.backgroundColor = 'rgb(165, 0, 243'} 
 
 const noEmergencyTasksHeaders = document.querySelectorAll('.no-emergency-tasks h3');
     for (let index = 0; index < noEmergencyTasksHeaders.length; index += 1) {
